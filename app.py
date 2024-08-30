@@ -6,9 +6,7 @@ import pandas_gbq
 import pandas 
 from google.oauth2 import service_account
 from google.cloud import bigquery
-import statsmodels.api as sm
 from plotly.subplots import make_subplots
-from prophet import Prophet
 from datetime import datetime, timedelta
 
 st.set_page_config(page_title="Account Overview Dash",page_icon="🧑‍🚀",layout="wide")
